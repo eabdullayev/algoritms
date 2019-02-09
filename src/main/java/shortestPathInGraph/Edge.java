@@ -1,6 +1,9 @@
 package shortestPathInGraph;
 
+import lombok.Value;
+
+@Value
 public class Edge {
-    Vertex to;
-    int weight;
+    private final Vertex to;
+    private final int weight;
 }
