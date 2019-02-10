@@ -28,6 +28,7 @@ class PathFinderTest {
 
         // initialise pathFinder here ...
         // pathFinder = ...
+        pathFinder = new PathFinderImpl();
     }
 
     @Test
